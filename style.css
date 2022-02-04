@@ -16,14 +16,16 @@
     position: fixed;
     align-content: center;
     justify-content: space-around;
-    background: linear-gradient(140deg, #46c57b, rgb(172, 72, 150));
+    background: linear-gradient(140deg, #87adfe, #ff77cd);
     color: white;
     padding: 20px;
+    z-index: 1;
     
 }
 
 nav{
     display: flex;
+    height: auto;
 
 }
 nav ul{
@@ -45,4 +47,71 @@ nav a{
     border-radius: 5px;
 
     
+}
+
+.container{
+    margin-left: 25%;
+    padding: 5px;
+    background: #f2f2f2;
+    width: 75%;
+
+}
+
+.row::after{
+    content: none;
+    display: table;
+    clear: both;
+}
+
+.column-2{
+    width: 50%;
+    padding: 5px;
+    float: left;
+}
+.home-content{
+    padding: 25%;
+    padding-bottom: 45%;
+    align-items: center;
+    background: rgb(250, 242, 242);
+}
+
+.home-content h1{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.home-content .line{
+    width: 45%;
+    display: block;
+    height: 2px;
+    border-bottom: 1px solid violet;
+    padding: 10px;
+}
+
+.graduate{
+    color: rgba(71, 46, 214, 0.699);
+    font-size: 3rem;
+}
+
+.home-content-2{
+    margin-top: 20px;
+    color: gray;
+    padding: 10px;
+}
+
+.home-content button{
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(243, 235, 235);
+    background: linear-gradient(45deg, #85a0da, #ff77cd);
+}
+.image{
+    align-items: center;
+    padding-top: 25%;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 30px;
 }
