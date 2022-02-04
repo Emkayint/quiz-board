@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+
+}
+
+.sidenav{
+    width: 25%;
+    height: 100%;
+    float: left;
+    position: fixed;
+    align-content: center;
+    justify-content: space-around;
+    background: linear-gradient(140deg, #46c57b, rgb(172, 72, 150));
+    color: white;
+    padding: 20px;
+    
+}
+
+nav{
+    display: flex;
+
+}
+nav ul{
+    list-style: none;
+    align-content: space-around;
+}
+nav li{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: rgb(102, 83, 187);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+
+    
+}
