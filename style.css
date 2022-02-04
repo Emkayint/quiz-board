@@ -121,3 +121,12 @@ nav a:hover{
     width: 100%;
     border-radius: 30px;
 }
+
+/* Quiz section*/
+
+#quiz{
+    background-image: url("assets/Project_16-24.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
