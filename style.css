@@ -130,3 +130,13 @@ nav a:hover{
     background-position: center;
     background-size: cover;
 }
+
+.card{
+    width: 50%;
+    box-shadow: 2px 2px 4px #f2f2f2;
+    background-color: rgba(53, 85, 95, 0.3);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    border-radius: 20px;
+}
