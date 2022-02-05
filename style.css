@@ -80,6 +80,14 @@ nav a:hover{
     padding: 20%;
     align-items: center;
     background: rgb(250, 242, 242);
+   
+}
+
+.pretty{
+    background-image: url("assets/361.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 .home-content h1{
@@ -116,6 +124,7 @@ nav a:hover{
 .image{
     align-items: center;
     padding-top: 25%;
+    height: 100vh;
 }
 
 .image img{
@@ -177,4 +186,29 @@ nav a:hover{
     background-color: rgba(101, 155, 32, 0.5);
     color: whitesmoke;
     margin-left: 40%;
+}
+
+.about-image img{
+    width: 100%;
+
+}
+
+#about{
+    background: linear-gradient(180deg, rgba(102, 153, 255, .8) 70%, #cec2c2 30%);
+    height: 100vh;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.about-content{
+
+    text-align: center;
+    padding: 15%;
+    color: whitesmoke;
+}
+
+.about-content img{
+    width: 70%;
+    padding: 10%;
 }
