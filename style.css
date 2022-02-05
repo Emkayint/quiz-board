@@ -130,8 +130,13 @@ nav a:hover{
     background-position: center;
     background-size: cover;
 }
+.content{
+    height: 100%;
+    padding: 50px;
+}
 
 .card{
+    height: 100%;
     width: 50%;
     box-shadow: 2px 2px 4px #f2f2f2;
     background-color: rgba(53, 85, 95, 0.3);
@@ -139,4 +144,36 @@ nav a:hover{
     font-family: 'Times New Roman', Times, serif;
     padding: 20px;
     border-radius: 20px;
+}
+.question{
+    padding: 30px;
+}
+
+.next{
+    border-radius: 10px;
+    border: none;
+    float: right;
+    padding: 8px;
+    background-color: rgba(101, 155, 32, 0.5);
+    color: whitesmoke;
+    width: 20%;
+}
+
+.prev{
+    border-radius: 10px;
+    border: none;
+    width: 20%;
+    padding: 8px;
+    background-color: rgba(101, 155, 32, 0.5);
+    color: whitesmoke;
+}
+
+.submit{
+    border-radius: 10px;
+    border: none;
+    width: 20%;
+    padding: 8px;
+    background-color: rgba(101, 155, 32, 0.5);
+    color: whitesmoke;
+    margin-left: 40%;
 }
