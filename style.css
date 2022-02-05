@@ -117,9 +117,16 @@ nav a:hover{
 .home-content button{
     margin-top: 40px;
     padding: 10px;
+    border: none;
     border-radius: 10px;
     color: rgb(243, 235, 235);
     background: linear-gradient(45deg, #85a0da, #ff77cd);
+}
+
+.home-content button:hover{
+    background: wheat;
+    color: blue;
+    transition: 2s;
 }
 .image{
     align-items: center;
@@ -194,7 +201,7 @@ nav a:hover{
 }
 
 #about{
-    background: linear-gradient(180deg, rgba(102, 153, 255, .8) 70%, #cec2c2 30%);
+    background: linear-gradient(180deg, rgba(102, 153, 255, .8) 70%, rgb(250, 242, 242) 30%);
     height: 100vh;
     justify-content: space-around;
     display: flex;
@@ -211,4 +218,23 @@ nav a:hover{
 .about-content img{
     width: 70%;
     padding: 10%;
+}
+
+.column-4{
+    width: 25%;
+    padding: 20px;
+    padding-left: 10%;
+    float: left;
+}
+
+#contact{
+    height: auto;
+}
+#contact h1{
+    padding: 20px;
+}
+
+hr{
+    width: 70%;
+    margin-top: 10px;
 }
