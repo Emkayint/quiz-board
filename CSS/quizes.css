@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.quiz-container{
+    height: 100vh;
+    background: linear-gradient(90deg, #e2d8e4, rgb(130, 158, 150));
+    display: flex;
+    justify-content: space-around;
+    padding: 20%;
+}

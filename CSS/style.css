@@ -84,7 +84,7 @@ nav a:hover{
 }
 
 .pretty{
-    background-image: url("assets/361.jpg");
+    background-image: url("/assets/361.jpg");
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -142,7 +142,7 @@ nav a:hover{
 /* Quiz section*/
 
 #quiz{
-    background-image: url("assets/Project_16-24.jpg");
+    background-image: url("/assets/Project_16-24.jpg");
     height: 100vh;
     background-position: center;
     background-size: cover;
