@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Easy Level</title>
     <link rel="stylesheet" href="CSS/quizes.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
 <body>
 
     <div class="quiz-container">
-        <div class="quiz-card">
+        <form class="quiz-card">
             <a href="index.html">Home</a>
             <h3> Level Easy</h3>
             <p>1. How many months does an year have</p>
@@ -37,10 +37,10 @@
             <input type="radio" name="html" value="1"> Strongly Disagree <br>
             <input type="radio" value="5" name="html"> Agree <br>
             <br>
-            <button type="button" onclick="displayRadioValue()">Submit</button>
+            <button type="button" onclick="displayRadioValue()" value="Reset form">Submit</button>
             <div id="result"></div>
             <div id="comment"></div>
-        </div>
+        </form>
     </div>
 
     <script src="js/script.js"></script>

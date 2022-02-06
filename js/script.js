@@ -9,7 +9,6 @@ function displayRadioValue() {
           
             if(ele[i].value == 1){
                 score +=10;
-
             }
 
         }
@@ -24,4 +23,10 @@ function displayRadioValue() {
     } else{
         document.getElementById("result").innerHTML =  " You scored " + prc + "% " + "<br>" + "Realy Bad";
     }
+    resetValue();
+}
+
+function resetValue() {
+    var radio = document.querySelector('input[type=radio]:checked');
+    radio.checked = false;
 }
