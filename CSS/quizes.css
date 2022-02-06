@@ -4,9 +4,42 @@
 
 }
 .quiz-container{
-    height: 100vh;
     background: linear-gradient(90deg, #e2d8e4, rgb(130, 158, 150));
     display: flex;
     justify-content: space-around;
-    padding: 20%;
+}
+
+.quiz-card{
+    background: rgb(250, 242, 242);
+    padding: 20px;
+    line-height: 30px;
+}
+
+.quiz-card button{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(45deg, #85a0da, #ff77cd);
+    border: none;
+    border-radius: 20px;
+}
+
+.quiz-card button:hover{
+    background: wheat;
+    color: black;
+    transition: 5s;
+}
+
+#result{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    background: #f2f2f2;
+}
+
+#comment{
+    width: 100%;
+    font-size: 30px;
+    padding: 20px;
+    background: #f2f2f2;
 }

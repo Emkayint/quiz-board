@@ -13,6 +13,15 @@ function displayRadioValue() {
             }
 
         }
+        
     }
-    document.getElementById("result").innerHTML = score;
+
+    const prc = ((score / 50) * 100);
+    if(prc >= 80){
+        document.getElementById("result").innerHTML =  " You scored " + prc + "% " + "<br>" + "Exelent Performance";
+    } else if(79>= prc >= 50){
+        document.getElementById("result").innerHTML = " You scored " + prc + "% " + "<br>" + "Very Good";
+    } else{
+        document.getElementById("result").innerHTML =  " You scored " + prc + "% " + "<br>" + "Realy Bad";
+    }
 }
