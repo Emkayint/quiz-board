@@ -2,12 +2,23 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
+    line-height: 2rem;
 }
 
 .container{
     width: 100%;
     height: 100vh;
     background: linear-gradient(90deg, #87adfe, #ff77cd);
+
+}
+.logo{
+    padding: 30px;
+    align-items: center;
+    display: flex;
+}
+.logo h1{
+    font-family: 'Lobster', cursive;
+    color: violet;
 
 }
 
@@ -70,6 +81,11 @@ nav a:hover{
     display: table;
     clear: both;
 }
+.column-3{
+    width: 33.33%;
+    float: left;
+    padding: 5px;
+}
 
 .column-2{
     width: 50%;
@@ -91,8 +107,8 @@ nav a:hover{
 }
 
 .home-content h1{
-    font-weight: bold;
-    font-size: 2.5rem;
+    font-weight: bold;git
+
 }
 
 .home-content .line{
@@ -146,24 +162,38 @@ nav a:hover{
     height: 100vh;
     background-position: center;
     background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .content{
     height: 100%;
     padding: 50px;
 }
+header{
+    align-items: center;
+    text-align: center;
+    padding-top: 10vw;
+}
 
 .card{
-    height: 100%;
-    width: 50%;
-    box-shadow: 2px 2px 4px #f2f2f2;
-    background-color: rgba(53, 85, 95, 0.3);
+    box-shadow: 2px 4px 7px #d3d0d0;
+    background-color: rgba(255, 255, 255, .6);
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    padding: 20px;
-    border-radius: 20px;
+    padding: 30px;
+    border-radius: 2px;
+    height: 15vw;
+    align-items: center;
+    margin-top: 5vw;
 }
+.column-3 a{
+    text-decoration: none;
+    
+}
+
 .question{
     padding: 30px;
+
 }
 
 .next{
@@ -237,4 +267,8 @@ nav a:hover{
 hr{
     width: 70%;
     margin-top: 10px;
+}
+.blue{
+    background-color: rgba(89, 90, 68, 0.7);
+    color: white;
 }
