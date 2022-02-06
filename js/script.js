@@ -3,13 +3,13 @@ function displayRadioValue() {
     var ele = document.getElementsByTagName('input');
     score = 0;
       
-    for(i = 0; i < ele.length; i++) {
-          
+    for(i = 0; i < ele.length; i++) {  
         if(ele[i].checked) {
           
             if(ele[i].value == 1){
                 score +=10;
             }
+            resetValue();
 
         }
         
@@ -23,7 +23,6 @@ function displayRadioValue() {
     } else{
         document.getElementById("result").innerHTML =  " You scored " + prc + "% " + "<br>" + "Realy Bad";
     }
-    resetValue();
 }
 
 function resetValue() {
